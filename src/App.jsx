@@ -6,6 +6,7 @@ import Projects from "./Components/projects.jsx"
 import EducationExperience from "./Components/education-experience.jsx"
 import TechStack from "./Components/tech-stack.jsx"
 import MessageMe from "./Components/message-me.jsx"
+import Socials from "./Components/social-links.jsx"
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
 
   return (
     <div className="main-app-grid">
-      <LeftNav/>
+      <LeftNav className="left-nav"/>
+      <Socials className="header"/>
       <Routes>
         <Route 
         path="/"

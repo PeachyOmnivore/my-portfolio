@@ -3,6 +3,45 @@
     margin: 0px;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-app-grid {
+    display: grid;
+    grid-template-areas: 
+    "left-nav header" 50px
+    "left-nav  main " 1fr/
+       100px     1fr  ;
+}
+
 .left-nav {
+    grid-area: left-nav;
     list-style: none;
+}
+
+.left-nav-list li {
+    list-style: none;
+}
+
+.header {
+    grid-area: header;
+}
+
+.socialLinks {
+    display: inline;
+    list-style: none;
+}
+
+.main {
+    grid-area: main;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.svg {
+    width: 30px;
 }
