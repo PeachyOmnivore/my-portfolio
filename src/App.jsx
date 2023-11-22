@@ -1,12 +1,46 @@
-import "./Styles/index.css"
+import LeftNav from "./Components/leftNav"
+import { Routes, Route } from "react-router-dom"
+import Home from "./Components/home.jsx"
+import AboutMe from "./Components/about-me.jsx"
+import Projects from "./Components/projects.jsx"
+import EducationExperience from "./Components/education-experience.jsx"
+import TechStack from "./Components/tech-stack.jsx"
+import MessageMe from "./Components/message-me.jsx"
+
 
 function App() {
   
 
   return (
-    <>
-      
-    </>
+    <div className="main-app-grid">
+      <LeftNav/>
+      <Routes>
+        <Route 
+        path="/"
+        element={<Home/>}
+        />
+        <Route 
+        path="/about-me"
+        element={<AboutMe/>}
+        />
+        <Route 
+        path="/projects"
+        element={<Projects/>}
+        />
+        <Route 
+        path="/education-experience"
+        element={<EducationExperience/>}
+        />
+        <Route 
+        path="/tech-stack"
+        element={<TechStack/>}
+        />
+        <Route 
+        path="/message"
+        element={<MessageMe/>}
+        />
+      </Routes>
+    </div>
   )
 }
 
