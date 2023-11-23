@@ -16,7 +16,7 @@ body {
     grid-template:
         "left-nav header" 50px
         "left-nav  main " 1fr/
-        150px 1fr;
+        180px 1fr;
 }
 
 .main {
@@ -46,7 +46,7 @@ body {
     display: grid;
     text-decoration: none;
     color: white;
-    width: 150px;
+    width: 180px;
     height: 70px;
     place-content: center;
 }
@@ -107,15 +107,21 @@ body {
 }
 
 .backgroundImageTrees {
-    background-image: url(https://images.pexels.com/photos/345522/pexels-photo-345522.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    
-
-    
-
+    background-image: url("../assets/images/trees.jpg");
     width: 80%;
     height: 500px;
     margin: 30px 30px 30px 80px;
+    border-radius: 10px;
+}
 
+.backgroundImageRevy {
+    background-image: url("../assets/images/revy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+    width: 80%;
+    
+    margin: 30px 30px 30px 80px;
     border-radius: 10px;
 }
 
@@ -137,5 +143,49 @@ body {
 .introduction > h1 {
     margin-bottom: 10px;
     font-size: 40px;
+}
+
+/* ABOUT-ME */
+.about-container {
+    border: 1px grey solid;
+    border-radius: 10px;
+
+    width: 80%;
+    margin: 30px 30px 30px 80px;
+
+    background: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(8px);
+}
+
+.aboutme {
+    display: grid;
+    grid-template: 
+    "text image"
+    "text image"
+    "text image"
+    "text image"
+    "text image"
+    "text image";
+    margin: 20px;
+    gap: 15px;
+}
+
+.aboutme h1 {
+    font-size: 40px;
+}
+
+.aboutme h1 p h2 {
+    grid-area: text;
+}
+
+.aboutme p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lukasImage {
+    grid-area: image;
+    width: 100%;
+    border-radius: 10px;
 }
 

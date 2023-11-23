@@ -6,8 +6,8 @@ export default function Home() {
                 <article className="introduction">
                     <h1>WELCOME</h1>
                     <br />
-                    <h2>My name is Lukas Allen Dembicki</h2><br />
-                    <p>I have built this portfolio to showcase some of my skills as a junior software engineer.</p>
+                    <h2>LOOKING TO HIRE A FULL-STACK DEVELOPER?</h2><br />
+                    <p>I have built this portfolio to showcase some of my skills as a junior full-stack software developer. Feel free to take a look around!</p>
                 </article>
             </section>
         </>
