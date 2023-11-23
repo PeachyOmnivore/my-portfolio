@@ -125,6 +125,16 @@ body {
     border-radius: 10px;
 }
 
+.backgroundImageTech {
+    background-image: url("../assets/images/tech.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    
+    margin: 30px 30px 30px 80px;
+    border-radius: 10px;
+}
+
 /* HOME */
 .home-container {
     display: grid;
@@ -140,9 +150,14 @@ body {
     backdrop-filter: blur(6px);
 }
 
-.introduction > h1 {
+.introduction h1 {
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 70px;
+}
+
+.introduction p {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* ABOUT-ME */
@@ -189,3 +204,27 @@ body {
     border-radius: 10px;
 }
 
+/* PROJECTS */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+
+    border: 1px grey solid;
+    border-radius: 10px;
+
+    width: 80%;
+    margin: 30px 30px 30px 80px;
+
+    background: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(4px);
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    width:  230px;
+    height: 300px;
+    background-color: #24598f;
+    border-radius: 10px;
+    margin: 10px;
+}
