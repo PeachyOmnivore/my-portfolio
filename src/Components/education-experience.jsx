@@ -1,5 +1,5 @@
 export default function EducationExperience() {
     return (
-        <p>This is the education page</p>
+        <p className="main">This is the education page</p>
     )
 }

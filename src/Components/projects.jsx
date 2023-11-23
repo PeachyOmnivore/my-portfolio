@@ -1,5 +1,5 @@
 export default function Projects() {
     return (
-        <p>This is the projects page</p>
+        <p className="main">This is the projects page</p>
     )
 }

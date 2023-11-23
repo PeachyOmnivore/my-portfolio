@@ -1,5 +1,5 @@
 export default function AboutMe() {
     return (
-        <p>This is the about me page</p>
+        <p className="main">This is the about me page</p>
     )
 }

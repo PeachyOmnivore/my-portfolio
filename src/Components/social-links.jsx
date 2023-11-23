@@ -18,6 +18,5 @@ export default function Socials() {
                 </li>
             </ul>
         </nav>
-
     )
 }

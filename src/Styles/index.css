@@ -1,3 +1,4 @@
+/* UNIVERSAL */
 * {
     padding: 0px;
     margin: 0px;
@@ -8,25 +9,57 @@ body {
     width: 100vw;
 }
 
+
+
+/* MAIN */
 .main-app-grid {
     display: grid;
-    grid-template-areas: 
-    "left-nav header" 50px
-    "left-nav  main " 1fr/
-       100px     1fr  ;
+    grid-template:
+        "left-nav header" 50px
+        "left-nav  main " 1fr/
+        150px 1fr;
 }
 
+.main {
+    grid-area: main;
+}
+
+
+
+/* LEFT-NAV */
 .left-nav {
     grid-area: left-nav;
     list-style: none;
+}
+
+.left-nav-list {
+    display: grid;
+    grid-template-rows: repeat(6, 70px);
+    place-items: center;
+
 }
 
 .left-nav-list li {
     list-style: none;
 }
 
+.links {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+}
+
+
+/* SOCIAL LINKS */
 .header {
     grid-area: header;
+}
+
+.svg {
+    width: 30px;
 }
 
 .socialLinks {
@@ -34,14 +67,28 @@ body {
     list-style: none;
 }
 
-.main {
-    grid-area: main;
+/* BACKGROUND COLOURS */
+
+.babyBlue {
+    background-color: #3BB5C3;
 }
 
-.links {
-    text-decoration: none;
+.navyBlue {
+    background-color: #11365C;
 }
 
-.svg {
-    width: 30px;
+.forestGreen {
+    background-color: rgb(11, 73, 11);
+}
+
+.burntRed {
+    background-color: #ba4141;
+}
+
+.peach {
+    background-color: #f88068;
+}
+
+.cream {
+    background-color: #f4d1AD;
 }
