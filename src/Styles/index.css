@@ -58,6 +58,7 @@ body {
 
 .links:active {
     transform: scale(1);
+    box-shadow: none;
 }
 
 
@@ -73,13 +74,13 @@ body {
 .socialsNav {
     display: grid;
     grid-auto-flow: column;
-    justify-content: end; 
+    justify-content: end;
     gap: 8px;
     margin: 10px;
     list-style: none;
 }
 
-/* BACKGROUND COLOURS */
+/* BACKGROUND COLOURS / IMAGES*/
 
 .babyBlue {
     background-color: #3bb5c3;
@@ -104,3 +105,38 @@ body {
 .cream {
     background-color: #f4d1AD;
 }
+
+.backgroundImageTrees {
+    background-image: url(https://images.pexels.com/photos/345522/pexels-photo-345522.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    
+
+    
+
+    width: 80%;
+    height: 500px;
+    margin: 30px;
+
+    border-radius: 10px;
+}
+
+/* HOME */
+.home-container {
+    display: grid;
+    place-items: center;
+    border: 1px grey solid;
+    border-radius: 10px;
+
+    width: 80%;
+    height: 500px;
+    margin: 30px;
+
+    background: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(6px);
+}
+
+.introduction > article > h1 {
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+
