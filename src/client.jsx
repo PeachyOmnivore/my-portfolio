@@ -5,7 +5,6 @@ const ChangeClassColour = () => {
     const location = useLocation()
     const locationPath = location.pathname
 
-    console.log(locationPath)
     const body = document.querySelector("body")
     if (locationPath === "/") {
         body.classList = "babyBlue"
@@ -21,7 +20,5 @@ const ChangeClassColour = () => {
         body.classList = "cream"
     }
 }
-
-
 
 export { ChangeClassColour }
