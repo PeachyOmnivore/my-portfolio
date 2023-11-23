@@ -43,12 +43,12 @@ body {
 }
 
 .links {
-    display: inline-block;
+    display: grid;
     text-decoration: none;
     color: white;
     width: 150px;
     height: 70px;
-    text-align: center;
+    place-content: center;
 }
 
 .links:hover {
@@ -70,8 +70,12 @@ body {
     width: 30px;
 }
 
-.socialLinks {
-    display: inline;
+.socialsNav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end; 
+    gap: 8px;
+    margin: 10px;
     list-style: none;
 }
 
