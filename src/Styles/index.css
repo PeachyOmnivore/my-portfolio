@@ -88,7 +88,7 @@
     position: absolute;
     display: block;
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.096);
+    background-color: rgba(255, 255, 255, 0.168);
     animation: animate 100s linear infinite;
     bottom: 0px;
 }
@@ -97,7 +97,6 @@
     left: 86%;
     width: 80px;
     height: 80px;
-    animation-delay: 3.5s;
     animation-duration: 7s;
 }
 
@@ -105,7 +104,6 @@
     left: 40%;
     width: 30px;
     height: 30px;
-    animation-delay: 2s;
     animation-duration: 10s;
 }
 
@@ -113,7 +111,6 @@
     left: 12%;
     width: 100px;
     height: 100px;
-    animation-delay: 0.5s;
     animation-duration: 12s;
 }
 
@@ -121,7 +118,6 @@
     left: 55%;
     width: 55px;
     height: 55px;
-    animation-delay: 4s;
     animation-duration: 29s;
 }
 
@@ -129,7 +125,6 @@
     left: 72%;
     width: 60px;
     height: 60px;
-    animation-delay: 1.5s;
     animation-duration: 33s;
 }
 
@@ -137,7 +132,6 @@
     left: 95%;
     width: 30px;
     height: 30px;
-    animation-delay: 6s;
     animation-duration: 18s;
 }
 
@@ -145,7 +139,6 @@
     left: 32%;
     width: 80px;
     height: 80px;
-    animation-delay: 2.5s;
     animation-duration: 25s;
 }
 
@@ -153,7 +146,6 @@
     left: 3%;
     width: 80px;
     height: 80px;
-    animation-delay: .7s;
     animation-duration: 22s;
 }
 
@@ -202,8 +194,9 @@
     list-style: none;
 }
 
-/* BACKGROUND COLOURS / IMAGES*/
 
+
+/* BACKGROUND COLOURS / IMAGES*/
 .babyBlue {
     background: linear-gradient(to right, #3bb5c3, #3bb5c384);
 }
@@ -282,6 +275,7 @@
 
 .backgroundImagePapers {
     background-image: url("../assets/images/papers.jpg");
+    object-position: 20% 20%;
 }
 
 .matchImage {
