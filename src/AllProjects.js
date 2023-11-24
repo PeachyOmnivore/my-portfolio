@@ -31,6 +31,14 @@ const AllProjects = [
         gitRepo: "github.com",
         website: null
     },
+    {
+        id: 5,
+        name: "Curlew",
+        image: "https://images.pexels.com/photos/7467224/pexels-photo-7467224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        description: "This is a project where I posted a Curlew",
+        gitRepo: "github.com",
+        website: null
+    }
 ]
 
 export {AllProjects}
