@@ -3,8 +3,8 @@ import lukas from "../assets/images/lukas.jpeg"
 export default function AboutMe() {
     return (
         <>
-            <div className=" main backgroundImageRevy "></div>
-            <section className="main about-container">
+            <div className=" main backgroundImageRevy backgroundImageSizing "></div>
+            <section className="main about-container matchImage">
                 <article className="aboutme">
                     <h1>ABOUT ME:</h1>
                     

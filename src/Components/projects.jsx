@@ -3,8 +3,8 @@ import { AllProjects } from "../AllProjects"
 export default function Projects() {
     return (
         <>
-            <div className=" main backgroundImageTech "></div>
-            <section className="main projects-container">
+            <div className=" main backgroundImageTech backgroundImageSizing "></div>
+            <section className="main projects-container matchImage">
                 {AllProjects.map((project) => (
                     <div key={project.id + project.name} className="card">
                         <h1>{project.name}</h1>

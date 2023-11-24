@@ -3,8 +3,8 @@ import { HTML5, CSS, REACT, JS, NODEJS } from "../assets/icons.jsx"
 export default function TechStack() {
     return (
         <>
-            <div className=" main backgroundImageMotherboard "></div>
-            <section className="main tech-stack-container">
+            <div className=" main backgroundImageMotherboard backgroundImageSizing"></div>
+            <section className="main tech-stack-container matchImage">
                 <div>
                     <h1>Tech Stack</h1>
                     <br />

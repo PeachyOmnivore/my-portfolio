@@ -1,8 +1,8 @@
 export default function Home() {
     return (
         <>
-            <div className=" main backgroundImageTrees "></div>
-            <section className="main home-container">
+            <div className=" main backgroundImageTrees backgroundImageSizing "></div>
+            <section className="main home-container matchImage">
                 <article className="introduction">
                     <h1>WELCOME</h1>
                     <br />

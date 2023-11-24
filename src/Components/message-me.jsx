@@ -6,8 +6,8 @@ const handleSubmit = (event) => {
 
     return (
         <>
-            <div className=" main backgroundImagePapers "></div>
-            <section className="main form-container">
+            <div className=" main backgroundImagePapers backgroundImageSizing "></div>
+            <section className="main form-container matchImage">
                 <form onSubmit={handleSubmit}className="messageForm">
                     <h1>SEND ME A MESSAGE</h1>
                     <div>

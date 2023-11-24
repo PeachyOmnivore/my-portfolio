@@ -162,6 +162,7 @@
         transform: translateY(0) rotate(0deg);
         opacity: 0;
     }
+
     50% {
         transform: translateY(-150px) rotate(180deg);
         opacity: 1;
@@ -181,9 +182,15 @@
     grid-area: header;
 }
 
-.SocialsSvg {
-    width: 30px;
-    background-color: black;
+.socialsSvg {
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+.socialsSvg:hover {
+    background-color: rgb(255, 255, 255);
 }
 
 .socialsNav {
@@ -198,8 +205,9 @@
 /* BACKGROUND COLOURS / IMAGES*/
 
 .babyBlue {
-    background: linear-gradient(to right, #3bb5c3, #3bb5c384 );
+    background: linear-gradient(to right, #3bb5c3, #3bb5c384);
 }
+
 .rawBabyBlue {
     background-color: #3bb5c3;
 }
@@ -207,6 +215,7 @@
 .navyBlue {
     background: linear-gradient(to right, #11365C, #11375cea);
 }
+
 .rawNavyBlue {
     background-color: #11365C;
 }
@@ -214,6 +223,7 @@
 .forestGreen {
     background: linear-gradient(to right, #023e02, #023e02a4);
 }
+
 .rawForestGreen {
     background-color: #023e02;
 }
@@ -221,6 +231,7 @@
 .burntRed {
     background: linear-gradient(to right, #ba4141, #ba4141dc);
 }
+
 .rawBurntRed {
     background-color: #ba4141;
 }
@@ -228,89 +239,67 @@
 .peach {
     background: linear-gradient(to right, #f88068, #f88068c7);
 }
+
 .rawPeach {
     background-color: #f88068;
 }
 
 .cream {
-    background: linear-gradient(to right,#f4d1AD,#f4d1adb4);
+    background: linear-gradient(to right, #f4d1AD, #f4d1adb4);
 }
+
 .rawCream {
     background-color: #f4d1AD;
 }
 
+.backgroundImageSizing {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 30px 30px 30px 80px;
+    border-radius: 8px;
+}
+
 .backgroundImageTrees {
     background-image: url("../assets/images/trees.jpg");
-    width: 80%;
-    height: 500px;
-    margin: 30px 30px 30px 80px;
-    border-radius: 10px;
 }
 
 .backgroundImageRevy {
     background-image: url("../assets/images/revy.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0px -150px;
-    width: 80%;
-
-    margin: 30px 30px 30px 80px;
-    border-radius: 10px;
 }
 
 .backgroundImageTech {
     background-image: url("../assets/images/tech.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 80%;
-
-    margin: 30px 30px 30px 80px;
-    border-radius: 10px;
 }
 
 .backgroundImageGrad {
     background-image: url("../assets/images/grad.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 80%;
-
-    margin: 30px 30px 30px 80px;
-    border-radius: 10px;
 }
 
 .backgroundImageMotherboard {
     background-image: url("../assets/images/motherboard.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 80%;
-
-    margin: 30px 30px 30px 80px;
-    border-radius: 10px;
 }
 
 .backgroundImagePapers {
     background-image: url("../assets/images/papers.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 70%;
-
-    margin: 30px 30px 30px 80px;
-    border-radius: 10px;
 }
+
+.matchImage {
+    border: 1px grey solid;
+    border-radius: 5px;
+
+    width: 90%;
+    margin: 30px 30px 30px 80px;
+
+    background: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(6px);
+}
+
 
 /* HOME */
 .home-container {
     display: grid;
     place-items: center;
-    border: 1px grey solid;
-    border-radius: 10px;
-
-    width: 80%;
-    height: 500px;
-    margin: 30px 30px 30px 80px;
-
-    background: rgba(255, 255, 255, 0.315);
-    backdrop-filter: blur(6px);
 }
 
 .introduction h1 {
@@ -324,16 +313,7 @@
 }
 
 /* ABOUT-ME */
-.about-container {
-    border: 1px grey solid;
-    border-radius: 10px;
-
-    width: 80%;
-    margin: 30px 30px 30px 80px;
-
-    background: rgba(255, 255, 255, 0.315);
-    backdrop-filter: blur(8px);
-}
+.about-container {}
 
 .aboutme {
     display: grid;
@@ -370,16 +350,16 @@
 /* PROJECTS */
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 
-    border: 1px grey solid;
-    border-radius: 10px;
-
-    width: 80%;
-    margin: 30px 30px 30px 80px;
-
-    background: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(4px);
+    justify-items: center;
+
+    overflow-y: scroll;
+}
+
+.projects-container::-webkit-scrollbar {
+    display: none;
 }
 
 .card {
@@ -407,14 +387,6 @@
 .education-container {
     display: grid;
     grid-template-rows: auto;
-    border: 1px grey solid;
-    border-radius: 10px;
-
-    width: 80%;
-    margin: 30px 30px 30px 80px;
-
-    background: rgba(255, 255, 255, 0.315);
-    backdrop-filter: blur(8px);
 }
 
 .education {
@@ -437,15 +409,7 @@
 
 /* TECH STACK */
 .tech-stack-container {
-    border: 1px grey solid;
-    border-radius: 10px;
-
-    width: 80%;
-    margin: 30px 30px 30px 80px;
-
-    background: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(4px);
-
     text-align: center;
 }
 
@@ -472,13 +436,8 @@
 
 .form-container {
     display: grid;
-    border: 1px grey solid;
-    border-radius: 10px;
+    width: 90%;
 
-    width: 70%;
-    margin: 30px 30px 30px 80px;
-
-    background: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(4px);
 
     text-align: center;
@@ -488,13 +447,12 @@
 .messageForm {
     display: grid;
     grid-template-rows: auto;
-    width: 60%;
+    width: 40%;
     height: 600px;
     padding: 20px;
     margin: 30px;
 
     text-align: start;
-
 
     background-color: rgb(255, 255, 255);
     border: black 1px solid;

@@ -1,8 +1,8 @@
 export default function EducationExperience() {
     return (
         <>
-            <div className=" main backgroundImageGrad "></div>
-            <section className="main education-container">
+            <div className=" main backgroundImageGrad backgroundImageSizing "></div>
+            <section className="main education-container matchImage">
                 <article className="education">
                     <h1>Education and Experience</h1>
                     <br />
