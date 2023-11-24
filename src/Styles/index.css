@@ -35,7 +35,6 @@
     display: grid;
     grid-template-rows: repeat(6, 70px);
     place-items: center;
-
 }
 
 .left-nav-list li {
@@ -68,12 +67,13 @@
 }
 
 .footer-area {
-    background: linear-gradient(to left, #ba4141, #11365C);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0));
     width: 100%;
 }
 
 .footer-area p {
     position: absolute;
+    color: white;
     left: 40%;
     bottom: 10px
 }
@@ -198,26 +198,44 @@
 /* BACKGROUND COLOURS / IMAGES*/
 
 .babyBlue {
+    background: linear-gradient(to right, #3bb5c3, #3bb5c384 );
+}
+.rawBabyBlue {
     background-color: #3bb5c3;
 }
 
 .navyBlue {
+    background: linear-gradient(to right, #11365C, #11375cea);
+}
+.rawNavyBlue {
     background-color: #11365C;
 }
 
 .forestGreen {
-    background-color: rgb(2, 62, 2);
+    background: linear-gradient(to right, #023e02, #023e02a4);
+}
+.rawForestGreen {
+    background-color: #023e02;
 }
 
 .burntRed {
+    background: linear-gradient(to right, #ba4141, #ba4141dc);
+}
+.rawBurntRed {
     background-color: #ba4141;
 }
 
 .peach {
+    background: linear-gradient(to right, #f88068, #f88068c7);
+}
+.rawPeach {
     background-color: #f88068;
 }
 
 .cream {
+    background: linear-gradient(to right,#f4d1AD,#f4d1adb4);
+}
+.rawCream {
     background-color: #f4d1AD;
 }
 

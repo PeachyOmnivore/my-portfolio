@@ -9,12 +9,12 @@ export default function LeftNav() {
         <div >
             <ChangeClassColour/>
             <ul className="left-nav-list">
-                <li><Link className="links babyBlue" to={"/"}>HOME</Link></li>
-                <li><Link className="links navyBlue" to={"/about-me"}>ABOUT ME</Link></li>
-                <li><Link className="links forestGreen" to={"/projects"}>PROJECTS</Link></li>
-                <li><Link className="links burntRed" to={"/education-experience"}>EDUCATION</Link></li>
-                <li><Link className="links peach" to={"/tech-stack"}>TECH STACK</Link></li>
-                <li><Link className="links cream" to={"/message"}>MESSAGE ME</Link></li>
+                <li><Link className="links rawBabyBlue" to={"/"}>HOME</Link></li>
+                <li><Link className="links rawNavyBlue" to={"/about-me"}>ABOUT ME</Link></li>
+                <li><Link className="links rawForestGreen" to={"/projects"}>PROJECTS</Link></li>
+                <li><Link className="links rawBurntRed" to={"/education-experience"}>EDUCATION</Link></li>
+                <li><Link className="links rawPeach" to={"/tech-stack"}>TECH STACK</Link></li>
+                <li><Link className="links rawCream" to={"/message"}>MESSAGE ME</Link></li>
             </ul>
         </div>
     )
