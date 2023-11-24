@@ -15,8 +15,12 @@ body {
     display: grid;
     grid-template:
         "left-nav header" 50px
-        "left-nav  main " 1fr/
-        180px 1fr;
+        "left-nav  main " 1fr
+        "footer footer " 150px/
+        180px     1fr;
+
+        height: 100vh;
+        width: 100vw;
 }
 
 .main {
@@ -60,6 +64,104 @@ body {
     transform: scale(1);
     box-shadow: none;
 }
+
+/* FOOTER */
+
+.footer {
+    grid-area: footer;
+}
+
+.footer-area{
+    background: linear-gradient(to left, #ba4141, #11365C);
+    border: red solid 2px;
+    width: 100%;
+    height: 150px;
+}
+
+.animation-items{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.animation-items li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.096);
+    animation: animate 20s linear infinite;
+    bottom: 0px;
+}
+
+.animation-items li:nth-child(1){
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 3.5s;
+    animation-duration: 7s;
+}
+.animation-items li:nth-child(2){
+    left: 40%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 2s;
+    animation-duration: 10s;
+}
+.animation-items li:nth-child(3){
+    left: 12%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0.5s;
+    animation-duration: 15s;
+}
+.animation-items li:nth-child(4){
+    left: 55%;
+    width: 55px;
+    height: 55px;
+    animation-delay: 4s;
+    animation-duration: 20s;
+}
+.animation-items li:nth-child(5){
+    left: 72%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 1.5s;
+    animation-duration: 9s;
+}
+.animation-items li:nth-child(6){
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 6s;
+    animation-duration: 18s;
+}
+.animation-items li:nth-child(7){
+    left: 32%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 2.5s;
+    animation-duration: 25s;
+}
+.animation-items li:nth-child(8){
+    left: 3%;
+    width: 80px;
+    height: 80px;
+    animation-delay: .7s;
+    animation-duration: 12s;
+}
+
+@keyframes animate{
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1,
+    }
+    100% {
+        transform: translateY(-300px) rotate(360deg);
+        opacity: 0,
+    }
+}
+
+
 
 
 /* SOCIAL LINKS */

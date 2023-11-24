@@ -1,4 +1,5 @@
 import LeftNav from "./Components/leftNav"
+import Footer from "./Components/footer.jsx"
 import { Routes, Route } from "react-router-dom"
 import Home from "./Components/home.jsx"
 import AboutMe from "./Components/about-me.jsx"
@@ -16,6 +17,7 @@ function App() {
     <div className="main-app-grid">
       <LeftNav className="left-nav"/>
       <Socials className="header"/>
+      <Footer />
       <Routes>
         <Route 
         path="/"
