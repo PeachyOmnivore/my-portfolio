@@ -5,16 +5,16 @@ export default function Socials() {
         <nav>
             <ul className="socialsNav">
                 <li>
-                    <a href="#"><img className="svg" src={GitHub} alt="GitHub" /></a>
+                    <a href="#"><img className="SocialsSvg" src={GitHub} alt="GitHub" /></a>
                 </li>
                 <li>
-                    <a href="#"><img className="svg" src={LinkedIn} alt="LinkedIn" /></a>
+                    <a href="#"><img className="SocialsSvg" src={LinkedIn} alt="LinkedIn" /></a>
                 </li>
                 <li>
-                    <a href="#"><img className="svg" src={Instagram} alt="Instagram" /></a>
+                    <a href="#"><img className="SocialsSvg" src={Instagram} alt="Instagram" /></a>
                 </li>
                 <li>
-                    <a href="#"><img className="svg" src={Email} alt="Email" /></a>
+                    <a href="#"><img className="SocialsSvg" src={Email} alt="Email" /></a>
                 </li>
             </ul>
         </nav>

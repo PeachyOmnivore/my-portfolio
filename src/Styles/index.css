@@ -67,7 +67,7 @@ body {
     grid-area: header;
 }
 
-.svg {
+.SocialsSvg {
     width: 30px;
     background-color: black;
 }
@@ -138,6 +138,16 @@ body {
 
 .backgroundImageGrad {
     background-image: url("../assets/images/grad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+
+    margin: 30px 30px 30px 80px;
+    border-radius: 10px;
+}
+
+.backgroundImageMotherboard {
+    background-image: url("../assets/images/motherboard.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
@@ -283,3 +293,35 @@ body {
     font-size: 20px;
 }
 
+/* TECH STACK */
+.tech-stack-container {
+    border: 1px grey solid;
+    border-radius: 10px;
+
+    width: 80%;
+    margin: 30px 30px 30px 80px;
+
+    background: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(4px);
+
+    text-align: center;
+}
+
+.tech-stack-container h1 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.techStack {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+
+    place-items: center;
+
+    list-style: none;
+    margin: 50px;
+}
+
+.techSvgs{
+    width: 150px;
+}
