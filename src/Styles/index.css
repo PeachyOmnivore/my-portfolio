@@ -5,11 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    height: 100vh;
-    width: 100vw;
-}
-
 /* MAIN */
 .main-app-grid {
     display: grid;
@@ -17,10 +12,11 @@ body {
         "left-nav header" 50px
         "left-nav  main " 1fr
         "footer footer " 150px/
-        180px     1fr;
+        180px 1fr;
 
-        height: 100vh;
-        width: 100vw;
+    height: 100vh;
+    width: 100vw;
+
 }
 
 .main {
@@ -71,14 +67,18 @@ body {
     grid-area: footer;
 }
 
-.footer-area{
+.footer-area {
     background: linear-gradient(to left, #ba4141, #11365C);
-    border: red solid 2px;
     width: 100%;
-    height: 150px;
 }
 
-.animation-items{
+.footer-area p {
+    position: absolute;
+    left: 40%;
+    bottom: 10px
+}
+
+.animation-items {
     width: 100px;
     height: 100px;
     overflow: hidden;
@@ -89,75 +89,87 @@ body {
     display: block;
     list-style: none;
     background-color: rgba(255, 255, 255, 0.096);
-    animation: animate 20s linear infinite;
+    animation: animate 100s linear infinite;
     bottom: 0px;
 }
 
-.animation-items li:nth-child(1){
+.animation-items li:nth-child(1) {
     left: 86%;
     width: 80px;
     height: 80px;
     animation-delay: 3.5s;
     animation-duration: 7s;
 }
-.animation-items li:nth-child(2){
+
+.animation-items li:nth-child(2) {
     left: 40%;
     width: 30px;
     height: 30px;
     animation-delay: 2s;
     animation-duration: 10s;
 }
-.animation-items li:nth-child(3){
+
+.animation-items li:nth-child(3) {
     left: 12%;
     width: 100px;
     height: 100px;
     animation-delay: 0.5s;
-    animation-duration: 15s;
+    animation-duration: 12s;
 }
-.animation-items li:nth-child(4){
+
+.animation-items li:nth-child(4) {
     left: 55%;
     width: 55px;
     height: 55px;
     animation-delay: 4s;
-    animation-duration: 20s;
+    animation-duration: 29s;
 }
-.animation-items li:nth-child(5){
+
+.animation-items li:nth-child(5) {
     left: 72%;
     width: 60px;
     height: 60px;
     animation-delay: 1.5s;
-    animation-duration: 9s;
+    animation-duration: 33s;
 }
-.animation-items li:nth-child(6){
+
+.animation-items li:nth-child(6) {
     left: 95%;
     width: 30px;
     height: 30px;
     animation-delay: 6s;
     animation-duration: 18s;
 }
-.animation-items li:nth-child(7){
+
+.animation-items li:nth-child(7) {
     left: 32%;
     width: 80px;
     height: 80px;
     animation-delay: 2.5s;
     animation-duration: 25s;
 }
-.animation-items li:nth-child(8){
+
+.animation-items li:nth-child(8) {
     left: 3%;
     width: 80px;
     height: 80px;
     animation-delay: .7s;
-    animation-duration: 12s;
+    animation-duration: 22s;
 }
 
-@keyframes animate{
+@keyframes animate {
     0% {
         transform: translateY(0) rotate(0deg);
-        opacity: 1,
+        opacity: 0;
     }
+    50% {
+        transform: translateY(-150px) rotate(180deg);
+        opacity: 1;
+    }
+
     100% {
         transform: translateY(-300px) rotate(360deg);
-        opacity: 0,
+        opacity: 0;
     }
 }
 
@@ -265,7 +277,7 @@ body {
     width: 70%;
 
     margin: 30px 30px 30px 80px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 /* HOME */
@@ -434,7 +446,7 @@ body {
     margin: 50px;
 }
 
-.techSvgs{
+.techSvgs {
     width: 150px;
 }
 
@@ -467,7 +479,7 @@ body {
 
 
     background-color: rgb(255, 255, 255);
-    border: black 1px solid  ;
+    border: black 1px solid;
     border-radius: 10px;
 }
 
@@ -492,16 +504,16 @@ body {
 }
 
 .submitButton {
-        background-color: #3bb5c3;
-        color: white;
-        border-radius: 25px;
+    background-color: #3bb5c3;
+    color: white;
+    border-radius: 25px;
 }
 
-.submitButton:hover{
+.submitButton:hover {
     color: black;
     border: black 2px solid;
 }
 
-.submitButton:active{
+.submitButton:active {
     box-shadow: 2px 2px 2px black;
 }
