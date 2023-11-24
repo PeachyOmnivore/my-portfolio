@@ -221,10 +221,21 @@ body {
 
 .card {
     display: grid;
-    justify-content: center;
+    place-items: center;
+    text-align: center;
     width:  230px;
     height: 300px;
-    background-color: #24598f;
+    background-color: #245a8fa8;
     border-radius: 10px;
     margin: 10px;
+    transition: all 200ms;
 }
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .card img {
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 10px 20px;
+  }

@@ -1,22 +1,21 @@
+import { AllProjects } from "../AllProjects"
+
 export default function Projects() {
     return (
         <>
             <div className=" main backgroundImageTech "></div>
             <section className="main projects-container">
-                <div className="card">
-                    <p>CARD 1</p>
-                </div>
-                <div className="card">
-                    <p>CARD 2</p>
-                </div>
-                <div className="card">
-                    <p>CARD 3</p>
-                </div>
-                <div className="card">
-                    <p>CARD 4</p>
-                </div>
+                {AllProjects.map((project) => (
+                    <div key={project.id + project.name} className="card">
+                        <h1>{project.name}</h1>
+                        <img src={project.image}  width="200px" alt="" />
+                        <p>{project.description}</p>
+                        <a href={project.gitRepo}>GitHub Repo</a>
+                        <a href={project.website}>Website</a>
+                    </div>
+                ))}
             </section>
-            
+
         </>
     )
 }
