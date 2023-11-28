@@ -18,6 +18,5 @@ I used mainly React in this project. I like it because it is a nice mixture of a
 
 ## Links
 
-- My repo https://github.com/PeachyOmnivore/my-portfolio
 - Deployed Website https://fanciful-puppy-47af16.netlify.app
 
