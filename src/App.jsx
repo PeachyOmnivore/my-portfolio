@@ -11,37 +11,37 @@ import Socials from "./Components/social-links.jsx"
 
 
 function App() {
-  
+
 
   return (
     <div className="main-app-grid">
-      <LeftNav className="left-nav"/>
-      <Socials className="header"/>
+      <LeftNav className="left-nav" />
+      <Socials className="header" />
       <Footer />
       <Routes>
-        <Route 
-        path="/"
-        element={<Home/>}
+        <Route
+          path="/"
+          element={<Home />}
         />
-        <Route 
-        path="/about-me"
-        element={<AboutMe/>}
+        <Route
+          path="/about-me"
+          element={<AboutMe />}
         />
-        <Route 
-        path="/projects"
-        element={<Projects/>}
+        <Route
+          path="/projects"
+          element={<Projects />}
         />
-        <Route 
-        path="/education-experience"
-        element={<EducationExperience/>}
+        <Route
+          path="/education-experience"
+          element={<EducationExperience />}
         />
-        <Route 
-        path="/tech-stack"
-        element={<TechStack/>}
+        <Route
+          path="/tech-stack"
+          element={<TechStack />}
         />
-        <Route 
-        path="/message"
-        element={<MessageMe/>}
+        <Route
+          path="/message"
+          element={<MessageMe />}
         />
       </Routes>
     </div>

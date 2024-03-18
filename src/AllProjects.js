@@ -1,11 +1,11 @@
 const AllProjects = [
     {
         id: 1,
-        name: "Duck",
+        name: "An Outdoor Adventure",
         image: "https://images.pexels.com/photos/13450235/pexels-photo-13450235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description: "This is a project where I posted a rubber duck",
-        gitRepo: "github.com",
-        website: "https://www.google.com/search?q=duck&sca_esv=585139827&source=hp&ei=UB9hZYCbHdiC9u8PyfK1gAY&iflsig=AO6bgOgAAAAAZWEtYCsYSvwGI_c8L_UV6jzGfqse8sHA&ved=0ahUKEwiAg8fA092CAxVYgf0HHUl5DWAQ4dUDCAs&uact=5&oq=duck&gs_lp=Egdnd3Mtd2l6IgRkdWNrMhEQLhiABBixAxiDARjHARjRAzILEAAYgAQYsQMYgwEyDhAuGIMBGNQCGLEDGIAEMggQLhiABBixAzIIEC4YsQMYgAQyCBAAGIAEGLEDMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMgsQABiABBixAxiDAUj0DFDIBVjXCnABeACQAQCYAcICoAH7BaoBBzAuMi4xLjG4AQPIAQD4AQGoAgrCAhAQABgDGI8BGOUCGOoCGIwDwgIOEC4YgAQYigUYsQMYgwHCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGLEDGIMBwgIREC4YgwEYxwEYsQMY0QMYgATCAgsQLhiABBjHARivAcICBRAuGIAEwgIEEAAYA8ICDhAuGIAEGLEDGIMBGNQCwgIUEC4YgAQYigUYsQMYgwEYxwEY0QM&sclient=gws-wiz"
+        description: "This is a project where I developed a choose your own adenture style application",
+        gitRepo: "https://github.com/PeachyOmnivore/An-outdoor-adventure",
+        website: "https://anoutdooradventure.netlify.app"
     },
     {
         id: 2,
