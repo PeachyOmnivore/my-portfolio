@@ -4,7 +4,7 @@ const AllProjects = [
     {
         id: 1,
         name: "An Outdoor Adventure",
-        image: "./src/assets/images/anOutdoorAdventure.png",
+        image: "/assets/images/anOutdoorAdventure.png",
         description: "A project where I developed a choose your own adventure style application",
         gitRepo: "https://github.com/PeachyOmnivore/An-outdoor-adventure",
         website: "https://anoutdooradventure.netlify.app"
@@ -12,7 +12,7 @@ const AllProjects = [
     {
         id: 2,
         name: "Well Grounded Counselling",
-        image: "./src/assets/images/wellGroundedCounselling.jpg",
+        image: "/assets/images/wellGroundedCounselling.jpg",
         description: "A website for a counsellor to advertise and book clients",
         gitRepo: "https://github.com/PeachyOmnivore/WellGroundedCounselling",
         website: "Coming soon"
