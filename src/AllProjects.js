@@ -1,11 +1,11 @@
-// Descriptions should not be longer than 
+// Descriptions should not be longer than 75 characters
 
 const AllProjects = [
     {
         id: 1,
         name: "An Outdoor Adventure",
         image: "./src/assets/images/anOutdoorAdventure.png",
-        description: "A project where I developed a choose your own adenture style application",
+        description: "A project where I developed a choose your own adventure style application",
         gitRepo: "https://github.com/PeachyOmnivore/An-outdoor-adventure",
         website: "https://anoutdooradventure.netlify.app"
     },
