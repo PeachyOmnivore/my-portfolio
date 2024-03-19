@@ -1,4 +1,4 @@
-import lukas from "assets/images/lukas.jpeg"
+import lukas from "/assets/images/lukas.jpeg"
 
 export default function AboutMe() {
     return (

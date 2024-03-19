@@ -254,27 +254,27 @@
 }
 
 .backgroundImageTrees {
-    background-image: url("assets/images/trees.jpg");
+    background-image: url("/assets/images/trees.jpg");
 }
 
 .backgroundImageRevy {
-    background-image: url("assets/images/revy.jpg");
+    background-image: url("/assets/images/revy.jpg");
 }
 
 .backgroundImageTech {
-    background-image: url("assets/images/tech.jpg");
+    background-image: url("/assets/images/tech.jpg");
 }
 
 .backgroundImageGrad {
-    background-image: url("assets/images/grad.jpg");
+    background-image: url("/assets/images/grad.jpg");
 }
 
 .backgroundImageMotherboard {
-    background-image: url("assets/images/motherboard.jpg");
+    background-image: url("/assets/images/motherboard.jpg");
 }
 
 .backgroundImagePapers {
-    background-image: url("assets/images/papers.jpg");
+    background-image: url("/assets/images/papers.jpg");
     object-position: 20% 20%;
 }
 
