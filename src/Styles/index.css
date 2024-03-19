@@ -176,6 +176,7 @@
 
 .socialsSvg {
     width: 50px;
+    height: 50px;
     background-color: rgba(255, 255, 255, 0.527);
     border: white solid 2px;
     border-radius: 10px;

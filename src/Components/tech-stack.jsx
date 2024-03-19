@@ -1,5 +1,3 @@
-import { HTML5, CSS, REACT, JS, NODEJS } from "/assets/icons.jsx"
-
 export default function TechStack() {
     return (
         <>
@@ -10,19 +8,19 @@ export default function TechStack() {
                     <br />
                     <ul className="techStack">
                         <li>
-                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img className="techSvgs" src={HTML5} alt="HTML5" /></a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img className="techSvgs" src='assets/svgs/HTML5.svg' alt="HTML5" /></a>
                         </li>
                         <li>
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> <img className="techSvgs" src={CSS} alt="CSS" /></a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> <img className="techSvgs" src='assets/svgs/CSS.svg' alt="CSS" /></a>
                         </li>
                         <li>
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> <img className="techSvgs" src={REACT} alt="Javascript" /></a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> <img className="techSvgs" src='assets/svgs/JS.svg' alt="Javascript" /></a>
                         </li>
                         <li>
-                            <a href="https://nodejs.org/en/"><img className="techSvgs" src={JS} alt="NodeJS" /></a>
+                            <a href="https://nodejs.org/en/"><img className="techSvgs" src='assets/svgs/NODEJS.svg' alt="NodeJS" /></a>
                         </li>
                         <li>
-                            <a href="https://react.dev"><img className="techSvgs" src={NODEJS} alt="React" /></a>
+                            <a href="https://react.dev"><img className="techSvgs" src='assets/svgs/REACT.svg' alt="React" /></a>
                         </li>
                     </ul>
                 </div>
