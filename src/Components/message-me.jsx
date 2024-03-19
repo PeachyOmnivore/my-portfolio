@@ -33,6 +33,9 @@ export default function MessageMe() {
             .then(response => response.json())
             .then(data => console.log('Email sent:', data))
             .catch((error) => console.error('Error:', error));
+
+            setFormData(initialForm)
+            event.target.reset()
     }
 
     return (
