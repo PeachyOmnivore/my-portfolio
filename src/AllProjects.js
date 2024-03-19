@@ -7,7 +7,7 @@ const AllProjects = [
         image: "assets/images/wellGroundedCounselling.jpg",
         description: "A website for a counsellor to advertise and book clients",
         gitRepo: "https://github.com/PeachyOmnivore/WellGroundedCounselling",
-        website: "Coming soon"
+        website: ""
     },
     {
         id: 2,

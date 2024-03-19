@@ -4,7 +4,7 @@ export default function Projects() {
 
     const noWebsite = (project) => {
         if (!project.website) {
-            return null
+            return "Coming Soon"
         } else {
             return <a href={project.website}>Website</a>
         }

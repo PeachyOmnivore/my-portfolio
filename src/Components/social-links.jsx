@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom"
+
 export default function Socials() {
+const navigate = useNavigate()
+
     return (
         <nav>
             <ul className="socialsNav">
@@ -12,7 +16,7 @@ export default function Socials() {
                     <a href="https://www.instagram.com/peachyomnivore/"><img className="socialsSvg" src='assets/svgs/Instagram.svg' alt="Instagram" /></a>
                 </li> 
                  <li>
-                    <a href="mailto:lad_777@hotmail.com"><img className="socialsSvg" src='assets/svgs/Email.svg' alt="Email" /></a>
+                    <a onClick={ ()=> navigate('/message')} ><img className="socialsSvg" src='assets/svgs/Email.svg' alt="Email" /></a>
                 </li> 
             </ul>
         </nav>
