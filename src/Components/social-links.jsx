@@ -1,4 +1,4 @@
-import {GitHub, Email, Instagram, LinkedIn} from "../assets/icons.jsx"
+import {GitHub, Email, Instagram, LinkedIn} from "assets/icons.jsx"
 
 export default function Socials() {
     return (

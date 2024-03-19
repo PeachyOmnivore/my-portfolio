@@ -1,4 +1,4 @@
-import { HTML5, CSS, REACT, JS, NODEJS } from "../assets/icons.jsx"
+import { HTML5, CSS, REACT, JS, NODEJS } from "/assets/icons.jsx"
 
 export default function TechStack() {
     return (
