@@ -19,11 +19,11 @@ const AllProjects = [
     },
     {
         id: 3,
-        name: "Bluebird",
-        image: "https://images.pexels.com/photos/7014820/pexels-photo-7014820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description: "This is a placeholder where I posted a bluebird",
-        gitRepo: "https://www.github.com",
-        website: "https://www.google.com/search?q=bluebird&sca_esv=585139827&ei=Zx9hZbycOtq_i-gP77uM4A8&ved=0ahUKEwj869_L092CAxXa3wIHHe8dA_wQ4dUDCA8&uact=5&oq=bluebird&gs_lp=Egxnd3Mtd2l6LXNlcnAiCGJsdWViaXJkMg4QLhiABBiKBRixAxiRAjIXEC4YgAQYigUYsQMYgwEYxwEYrwEYkQIyERAuGIAEGLEDGIMBGMcBGNEDMgUQABiABDIOEC4YgAQYsQMYxwEYrwEyCxAuGIAEGMcBGK8BMgUQABiABDILEC4YgAQYxwEYrwEyCxAuGIAEGMcBGK8BMgsQABiABBixAxjJAzIdEC4YgAQYigUYsQMYkQIYlwUY3AQY3gQY3wTYAQNIlRBQ8AZYsg9wA3gBkAEBmAHPAqAB8wuqAQcwLjMuMy4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGLADGEPCAg4QABjkAhjWBBiwA9gBAcICFhAuGIAEGIoFGNQCGMgDGLADGEPYAQLCAhMQLhiABBiKBRjIAxiwAxhD2AECwgIOEAAYgAQYigUYsQMYgwHCAgsQABiABBixAxiDAcICIBAuGIAEGLEDGIMBGMcBGNEDGJcFGNwEGN4EGOAE2AEDwgIQEC4YgAQYigUYxwEY0QMYQ8ICChAuGIAEGIoFGEPCAgoQABiABBiKBRhDwgINEC4YgAQYigUY1AIYQ8ICEBAuGIAEGIoFGMcBGK8BGEPCAh8QLhiABBiKBRjHARjRAxhDGJcFGNwEGN4EGOAE2AEDwgIREC4YgAQYigUYsQMYxwEYrwHCAggQLhiABBixA8ICDRAuGIAEGIoFGLEDGEPCAhAQLhiABBiKBRixAxiDARhD4gMEGAAgQYgGAZAGEroGBggBEAEYCboGBggCEAEYCLoGBggDEAEYFA&sclient=gws-wiz-serp"
+        name: "Spotify Clone",
+        image: "assets/images/SpotifyClone.png",
+        description: "A front-end project where I recreated the homepage of Spotify",
+        gitRepo: "https://github.com/PeachyOmnivore/html-spotify-challenge",
+        website: "https://clonehtmlspotify.netlify.app"
     },
     {
         id: 4,
