@@ -1,5 +1,6 @@
 /* eslint-env node */
 const nodeMailer = require('nodemailer');
+require("dotenv").config()
 
 exports.handler = async (event) => {
     const { name, subject, title, email, message } = JSON.parse(event.body);
@@ -18,15 +19,15 @@ exports.handler = async (event) => {
         secure: false,
         requireTLS: true,
         auth: {
-            user: "Lad_777@hotmail.com",
-            pass: "kndcrgaxlshdpldr",
+            user: process.env.USER_EMAIL,
+            pass: process.env.APP_PASS,
         },
     });
 
     try {
         const info = await transporter.sendMail({
-            from: `${name} <Lad_777@hotmail.com>`,
-            to: "Lad_777@hotmail.com",
+            from: `${name} <${process.env.USER_EMAIL}>`,
+            to: process.env.USER_EMAIL,
             subject: `${subject}`,
             html: emailContent,
         });
