@@ -20,7 +20,13 @@ export default function TechStack() {
                             <a href="https://nodejs.org/en/"><img className="techSvgs" src='assets/svgs/NODEJS.svg' alt="NodeJS" /></a>
                         </li>
                         <li>
-                            <a href="https://react.dev"><img className="techSvgs" src='assets/svgs/REACT.svg' alt="React" /></a>
+                            <a href="https://www.postgresql.org"><img className="techSvgs" src='assets/images/elephant.png' alt="PostgreSQL" /></a>
+                        </li>
+                        <li>
+                            <a href="https://expressjs.com"><img className="techSvgs" src='assets/images/express-js.png' alt="Express" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.prisma.io"><img className="techSvgs" src='assets/images/prismaHD.png' alt="Prisma" /></a>
                         </li>
                     </ul>
                 </div>
