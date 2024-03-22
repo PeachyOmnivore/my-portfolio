@@ -416,7 +416,7 @@
 
 .techStack {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 
     place-items: center;
 
@@ -425,7 +425,15 @@
 }
 
 .techSvgs {
-    width: 150px;
+    width: 160px;
+}
+
+.techSvgs:hover {
+    scale: 1.1;
+}
+
+.techSvgs:active{
+    scale: .9;
 }
 
 /* MESSAGE ME */
