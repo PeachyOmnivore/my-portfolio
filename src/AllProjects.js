@@ -28,18 +28,18 @@ const AllProjects = [
     {
         id: 4,
         name: "Accordion Template",
-        image: "assets/images/AccordionDemo.jpg",
+        image: "assets/images/AccordionDemo.png",
         description: "A small component showing my ability to build an accordion style dropdown.",
         gitRepo: "https://github.com/PeachyOmnivore/Accordions-tech-test/tree/main",
         website: "https://accordiontechtest.netlify.app"
     },
     {
         id: 5,
-        name: "Curlew",
-        image: "https://images.pexels.com/photos/7467224/pexels-photo-7467224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        description: "This is a placeholder where I posted a Curlew",
-        gitRepo: "https://www.github.com",
-        website: "https://www.google.com/search?q=curlew+bird&sca_esv=585139827&ei=rx9hZeuGF6-wi-gP7-mgyAc&gs_ssp=eJzj4tTP1TcwzE7KMzdg9OJOLi3KSS1XSMosSgEAVyQHiw&oq=curlew&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmN1cmxldyoCCBIyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyDRAAGIAEGIoFGLADGEMyDRAAGIAEGIoFGLADGEMyDRAAGIAEGIoFGLADGEMyDRAAGIAEGIoFGLADGEMyDhAAGOQCGNYEGLAD2AEBMg4QABjkAhjWBBiwA9gBATIOEAAY5AIY1gQYsAPYAQEyFhAuGIAEGIoFGNQCGMgDGLADGEPYAQIyExAuGIAEGIoFGMgDGLADGEPYAQIyExAuGIAEGIoFGMgDGLADGEPYAQIyExAuGIAEGIoFGMgDGLADGEPYAQJItxVQAFgAcAF4AZABAJgBAKABAKoBALgBAcgBAOIDBBgAIEGIBgGQBhO6BgYIARABGAm6BgYIAhABGAg&sclient=gws-wiz-serp"
+        name: "Green Grocers Rebuild",
+        image: "assets/images/greengrocers.png",
+        description: "A React application replicating a JSDom exercise of a small grocery store page.",
+        gitRepo: "https://github.com/PeachyOmnivore/react-greengrocers",
+        website: "https://greengrocersrebuild.netlify.app"
     }
 ]
 
