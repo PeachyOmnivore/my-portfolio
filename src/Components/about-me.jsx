@@ -7,7 +7,7 @@ export default function AboutMe() {
             <section className="main about-container matchImage">
                 <article className="aboutme">
                     <h1>ABOUT ME:</h1>
-                    
+                    <br />
                     <h2>Hello, my name is Lukas Allen Dembicki</h2>
                     <p>I am a Full-Stack Developer with a passion to build scalable applications and websites.</p>
                     <p>I am a Canadian that moved to the UK in 2020 and have been enjoying it very much. Myself and my wife live up in Scotland. </p>

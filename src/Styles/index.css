@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 /* MAIN */
@@ -308,6 +309,10 @@
 }
 
 /* ABOUT-ME */
+.about-wrapper {
+    background-color: black;
+}
+
 .aboutme {
     display: grid;
     grid-template:
@@ -331,7 +336,6 @@
 
 .aboutme p {
     font-size: 20px;
-    font-weight: bold;
 }
 
 .lukasImage {
