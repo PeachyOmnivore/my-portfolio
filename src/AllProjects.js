@@ -27,11 +27,11 @@ const AllProjects = [
     },
     {
         id: 4,
-        name: "Chicken",
-        image: "https://images.pexels.com/photos/195226/pexels-photo-195226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description: "This is a placeholder where I posted a Chicken",
-        gitRepo: "https://www.github.com",
-        website: "https://www.google.com/search?q=chicken+bird&sca_esv=585139827&ei=kx9hZZXjDtC9i-gP6dOtuA4&gs_ssp=eJzj4tDP1TewTDItMWD04knOyEzOTs1TSMosSgEAVP0Hbw&oq=chicken&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2NoaWNrZW4qAggAMg0QLhjUAhiABBiKBRhDMg0QLhjUAhiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMhAQLhiABBiKBRixAxiDARhDMgoQABiABBiKBRhDMggQABiABBixAzIKEC4YgAQYigUYQzIIEAAYgAQYsQMyCBAAGIAEGLEDMhwQLhjUAhiABBiKBRhDGJcFGNwEGN4EGN8E2AEDSMAZUOQLWNcNcAJ4AZABAJgBygGgAZIDqgEDMi0yuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGLADGEPCAg4QABjkAhjWBBiwA9gBAcICExAuGIAEGIoFGMgDGLADGEPYAQLCAhYQLhiABBiKBRjUAhjIAxiwAxhD2AEC4gMEGAAgQYgGAZAGE7oGBggBEAEYCboGBggCEAEYCLoGBggDEAEYFA&sclient=gws-wiz-serp"
+        name: "Accordion Template",
+        image: "assets/images/AccordionDemo.jpg",
+        description: "A small component showing my ability to build an accordion style dropdown.",
+        gitRepo: "https://github.com/PeachyOmnivore/Accordions-tech-test/tree/main",
+        website: "https://accordiontechtest.netlify.app"
     },
     {
         id: 5,
