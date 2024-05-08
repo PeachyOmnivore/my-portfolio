@@ -80,6 +80,7 @@ export default function MessageMe() {
                     </div>
                     <input className="submitButton" type="submit" name="submit" />
                 </form>
+                <p>Or email me directly at: <a href="mailto:lukas.dembicki@outlook.com">lukas.dembicki@outlook.com</a></p>
             </section>
         </>
     )
