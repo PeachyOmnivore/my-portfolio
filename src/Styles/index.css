@@ -518,37 +518,13 @@
 
     .backgroundImageSizing {
         width: 95%;
-        margin: 20px 20px 20px 60px;
-    }
-}
-
-/* Tablet screens */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .main-app-grid {
-        grid-template:
-            "header header" auto
-            "left-nav main" 1fr
-            "footer footer" auto /
-            120px 1fr;
-    }
-
-    .links {
-        width: 120px;
-    }
-
-    .backgroundImageSizing {
-        width: 95%;
-        margin: 20px 10px;
-    }
-
-    .messageForm {
-        width: 60%;
     }
 }
 
 
-/* Mobile screens */
-@media screen and (max-width: 480px) {
+/* Mobile and tablet screens */
+@media screen and (max-width: 768px) {
+    
     * {
         margin: revert;
     }
@@ -617,6 +593,10 @@
         height: auto;
     }
 
+    .animation-items li {
+        bottom: revert;
+    }
+
     .babyBlue {
         background-color: #3bb5c3;
     }
@@ -641,7 +621,4 @@
         background-color: #f4d1AD;
     }
 
-    .animation-items li {
-        bottom: revert;
-    }
 }
