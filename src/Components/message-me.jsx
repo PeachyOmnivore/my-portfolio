@@ -23,6 +23,8 @@ export default function MessageMe() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
+
+        try {
             await fetch('/.netlify/functions/sendMail', {
                 method: 'POST',
                 headers: {
@@ -30,12 +32,16 @@ export default function MessageMe() {
                 },
                 body: JSON.stringify(formData),
             })
-            .then(response => response.json())
-            .then(data => console.log('Email sent:', data))
-            .catch((error) => console.error('Error:', error));
+                .then(response => response.json())
+                .then(data => console.log('Email sent:', data))
+        }
 
-            setFormData(initialForm)
-            event.target.reset()
+        catch (error) {
+            console.error('Error:', error);
+        }
+
+        setFormData(initialForm)
+        event.target.reset()
     }
 
     return (

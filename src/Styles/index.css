@@ -15,8 +15,8 @@
         "footer footer " 150px/
         180px 1fr;
 
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
 
 }
 
@@ -436,7 +436,7 @@
     scale: 1.1;
 }
 
-.techSvgs:active{
+.techSvgs:active {
     scale: .9;
 }
 
@@ -500,4 +500,148 @@
 
 .submitButton:active {
     box-shadow: 2px 2px 2px black;
+}
+
+/* Small monitor screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main-app-grid {
+        grid-template:
+            "left-nav header" 50px
+            "left-nav main" 1fr
+            "footer footer" auto /
+            150px 1fr;
+    }
+
+    .links {
+        width: 150px;
+    }
+
+    .backgroundImageSizing {
+        width: 95%;
+        margin: 20px 20px 20px 60px;
+    }
+}
+
+/* Tablet screens */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main-app-grid {
+        grid-template:
+            "header header" auto
+            "left-nav main" 1fr
+            "footer footer" auto /
+            120px 1fr;
+    }
+
+    .links {
+        width: 120px;
+    }
+
+    .backgroundImageSizing {
+        width: 95%;
+        margin: 20px 10px;
+    }
+
+    .messageForm {
+        width: 60%;
+    }
+}
+
+
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+    * {
+        margin: revert;
+    }
+
+    .main-app-grid {
+        grid-template:
+            "header" auto
+            "left-nav" auto
+            "main" 1fr
+            "footer" auto /
+            1fr;
+    }
+
+    .left-nav-list {
+        display: block;
+    }
+
+    .links {
+        width: 100%;
+        height: 50px;
+        background-size: cover;
+    }
+
+    .backgroundImageSizing {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .aboutme {
+        grid-template:
+            "image"
+            "text";
+        gap: 10px;
+    }
+
+    .messageForm {
+        width: 90%;
+    }
+
+    .matchImage {
+        width: auto;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .socialsNav {
+        justify-content: center;
+    }
+
+    .footer-area p {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .techStack {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .techSvgs {
+        width: 100px;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .babyBlue {
+        background-color: #3bb5c3;
+    }
+
+    .navyBlue {
+        background-color: #11365C;
+    }
+
+    .forestGreen {
+        background-color: #023e02;
+    }
+
+    .burntRed {
+        background-color: #ba4141;
+    }
+
+    .peach {
+        background-color: #f88068;
+    }
+
+    .cream {
+        background-color: #f4d1AD;
+    }
+
+    .animation-items li {
+        bottom: revert;
+    }
 }
