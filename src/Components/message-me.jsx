@@ -25,18 +25,22 @@ export default function MessageMe() {
         event.preventDefault();
 
         try {
-            await fetch('/.netlify/functions/sendMail', {
+            const response = await fetch('/.netlify/functions/sendMail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(formData),
-            })
-                .then(response => response.json())
-                .then(data => console.log('Email sent:', data))
-        }
+            });
 
-        catch (error) {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            console.log('Email sent:', data);
+
+        } catch (error) {
             console.error('Error:', error);
         }
 

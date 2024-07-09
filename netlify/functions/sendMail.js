@@ -1,9 +1,10 @@
 /* eslint-env node */
-const nodeMailer = require('nodemailer');
-require("dotenv").config()
+const nodeMailer = require("nodemailer");
+require("dotenv").config();
 
 exports.handler = async (event) => {
     const { name, subject, title, email, message } = JSON.parse(event.body);
+    console.log(name, subject, title, email, message); // REMOVE //
 
     const emailContent = `
       <h1>${title}</h1>
@@ -36,6 +37,9 @@ exports.handler = async (event) => {
             body: JSON.stringify({ messageId: info.messageId }),
         };
     } catch (error) {
-        return { statusCode: 500, body: error.toString() };
+        return {
+            statusCode: 500,
+            body: JSON.stringify({ error: error.toString() }),
+        };
     }
 };
