@@ -3,8 +3,8 @@ const nodeMailer = require("nodemailer");
 require("dotenv").config();
 
 exports.handler = async (event) => {
+    console.log("Function called") // REMOVE //
     const { name, subject, title, email, message } = JSON.parse(event.body);
-    console.log(name, subject, title, email, message); // REMOVE //
 
     const emailContent = `
       <h1>${title}</h1>

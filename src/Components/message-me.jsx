@@ -25,7 +25,7 @@ export default function MessageMe() {
         event.preventDefault();
 
         try {
-            const response = await fetch('/.netlify/functions/sendMail', {
+            const response = await fetch('/netlify/functions/sendMail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
